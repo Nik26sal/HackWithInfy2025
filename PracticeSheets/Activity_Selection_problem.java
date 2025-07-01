@@ -1,5 +1,5 @@
 import java.util.*;
-public class Activity_Selection_Problem
+public class Activity_Selection_problem
 {
     public static int findLongestChain(int[][] pairs) {
         Arrays.sort(pairs,(a,b)->a[1]-b[1]);
